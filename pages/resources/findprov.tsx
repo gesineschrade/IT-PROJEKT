@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "styles/Home.module.css";
+import styles from "/styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -44,54 +44,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a>Sexequity</a>
+          <a>Find service providers:</a>
         </h1>
 
-        <p className={styles.description}>
-          Your website to help you learn about Sex and find the right assistance
-          for you. <code className={styles.code}></code>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d77723.46550846905!2d13.2725351!3d52.4998046!3m2!1i1024!2i768!4f13.1!2m1!1ssexualtherapie%20berlin!5e0!3m2!1sde!2sde!4v1673720742051!5m2!1sde!2sde" 
+        width="1000" height="650" className="border:0;" allowfullscreen=" " loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </p>
-
-        <div className={styles.grid}>
-          <a
-            href="http://localhost:3000/education/education"
-            className={styles.card}
-          >
-            <h2>Education</h2>
-            <p>Everything you want to know about Sex.</p>
-          </a>
-
-          <a
-            href="http://localhost:3000/resources/resources"
-            className={styles.card}
-          >
-            <h2>Find Resources</h2>
-            <p>Do you need sexual assistance?</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Get urgent help.</h2>
-            <p>
-              Is someone doing something sexual you do not like? You can find
-              help here!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Impressum</h2>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
+     </main>
+     <footer className={styles.footer}>
         <a
           href="https://www.linkedin.com/in/gesine-schrade/"
           target="_blank"
@@ -100,6 +61,7 @@ export default function Home() {
           <p> Powered by&nbsp;Schrade & Geist</p>
         </a>
       </footer>
-    </div>
+
+        </div>
   );
 }

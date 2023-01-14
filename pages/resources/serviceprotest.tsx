@@ -56,9 +56,9 @@ export default function Home() {
           <a
             href="https://www.aktion-mensch.de/menschen-und-geschichten/aus-dem-leben/sexualassistenz"
             className={styles.card}
-          >
+            >
             <h2>Explanations &rarr;</h2>
-            <p>
+            <p className={styles.hidden}>
               Service sex providers for people with disabilities are individuals
               or businesses that offer sexual services specifically to people
               with disabilities. These services may be provided in person or
