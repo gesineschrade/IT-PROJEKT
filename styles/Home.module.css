@@ -214,3 +214,19 @@
     filter: invert(1);
   }
 }
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.back-arrow a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.card p {
+  display: none;
+}
