@@ -40,7 +40,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sexual Therapists</a>
+          <a>Sexual Therapist</a>
         </h1>
 
         <div className={styles.grid}>
