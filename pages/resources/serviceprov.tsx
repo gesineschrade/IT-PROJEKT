@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://www.aktion-mensch.de/menschen-und-geschichten/aus-dem-leben/sexualassistenz"
+            href="http://localhost:3000/resources/explanation"
             className={styles.card}
           >
             <h2>Explanations &rarr;</h2>
@@ -68,7 +68,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.therapie.de/psychotherapie/-schwerpunkt-/sexualtherapie/"
+            href="http://localhost:3000/resources/sexualtherap"
             className={styles.card}
           >
             <h2>Sexual Therapist &rarr;</h2>
@@ -83,7 +83,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://cordis.europa.eu/article/id/174984-understanding-sexual-assistance-for-the-disabled"
+            href="http://localhost:3000/resources/sexualass"
             className={styles.card}
           >
             <h2>Sexual assistance&rarr;</h2>
@@ -99,7 +99,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://sexualbegleitung.berlin" className={styles.card}>
+          <a href="http://localhost:3000/resources/prostituts" className={styles.card}>
             <h2>Prostituts with spezialization&rarr;</h2>
             <p>
               Prostitution is the practice of selling sexual services in

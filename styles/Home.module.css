@@ -69,7 +69,7 @@
 .button:hover {
   transform: scale(1.1); 
   background-color: #e1165a;
-  color: white;
+  color: #f4f1f2;
   transition: 0.3s;
 }
 
