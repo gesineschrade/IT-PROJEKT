@@ -45,7 +45,7 @@ export default function Home() {
 
         <div className={styles.grid}>
         <p className={styles.description}>
-        Service sex providers for people with disabilities are individuals
+              Service sex providers for people with disabilities are individuals
               or businesses that offer sexual services specifically to people
               with disabilities. These services may be provided in person or
               remotely, and they may include things like sensual massages,
