@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
 
         <p><iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d77723.46550846905!2d13.2725351!3d52.4998046!3m2!1i1024!2i768!4f13.1!2m1!1ssexualtherapie%20berlin!5e0!3m2!1sde!2sde!4v1673720742051!5m2!1sde!2sde" 
-        width="1000" height="650" className="border:0;" allowfullscreen=" " loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="1000" height="650" className="border:0;"  loading="lazy" ></iframe>
 
         </p>
      </main>
