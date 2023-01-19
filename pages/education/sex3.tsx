@@ -48,7 +48,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://localhost:3000/education/sex1" className={styles.card}>
+          <a href="http://localhost:3000/education/education/sex1" className={styles.card}>
             <h2 className={styles.cardtext}>What is Sex?</h2>
           </a>
 
@@ -56,14 +56,14 @@ export default function Home() {
             href="http://localhost:3000/education/sex2"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>What are possible consequences of Sex?</h2>
+            <h2 className={styles.cardtext}>hhhh</h2>
           </a>
 
           <a
             href="http://localhost:3000/education/sex3"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>What are sexual activities?</h2>
+            <h2 className={styles.cardtext}>hhhhhh</h2>
           </a>
         </div>
       </main>

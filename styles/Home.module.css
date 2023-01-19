@@ -108,6 +108,15 @@
   font-size: 1.5rem;
 }
 
+.description2 {
+  margin: 1rem 5;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -128,7 +137,7 @@
 .card {
   text-align: center;
   vertical-align: middle;
-  color: inherit;
+  color: #e1165a;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;

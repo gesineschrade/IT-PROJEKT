@@ -40,32 +40,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sex</a>
+          <a>What is Sex?</a>
         </h1>
-        <p className={styles.description}>
-          Discover everything you want to know about sex, your body and
-          relationships! <code className={styles.code}></code>
+        <p className={styles.description2}>
+        Sex is when two people engage in sexual activity with each other.
+        This can include things like kissing, touching, and intercourse.
+        It's important to make sure that both people involved have consented and are comfortable and happy with what's happening. <code className={styles.code}></code>
         </p>
-
-        <div className={styles.grid}>
-          <a href="http://localhost:3000/education/sex1" className={styles.card}>
-            <h2 className={styles.cardtext}>What is Sex?</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/sex2"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>What are possible consequences of Sex?</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/sex3"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>What are sexual activities?</h2>
-          </a>
-        </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvH4SfPWF-ssbZft4rQZTkJ4e420LeSVjg-MYNXa3Sli0Qhw/viewform?embedded=true" width="640" height="464" frameBorder="0" marginHeight="0" marginWidth="0">Wird geladen…</iframe>
       </main>
 
       <footer className={styles.footer}>

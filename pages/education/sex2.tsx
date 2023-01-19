@@ -40,32 +40,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sex</a>
+          <a>What are possible consequences of Sex? </a>
         </h1>
-        <p className={styles.description}>
-          Discover everything you want to know about sex, your body and
-          relationships! <code className={styles.code}></code>
+        <p className={styles.description2}>
+        Sex can have a variety of consequences, both physical and emotional. 
+        Physically, sex can lead to unintended pregnancies and sexually transmitted infections (STIs). 
+        Emotionally, sex can lead to feelings of regret, guilt, or shame if the experience was not consensual or respectful. 
+        It's important to always be aware of the potential consequences of sexual activity and make informed decisions about your sexual health and well-being.
+        <code className={styles.code}></code>
         </p>
-
-        <div className={styles.grid}>
-          <a href="http://localhost:3000/education/sex1" className={styles.card}>
-            <h2 className={styles.cardtext}>What is Sex?</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/sex2"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>What are possible consequences of Sex?</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/sex3"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>What are sexual activities?</h2>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
