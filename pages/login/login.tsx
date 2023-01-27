@@ -8,7 +8,7 @@ export default function Home() {
         <Head>
         <div className={styles.header}>
           <nav>
-              <h2> <span className= {styles.halfa}>Sex</span>
+          <h2> <span className= {styles.halfa}>Sex</span>
               <span className= {styles.halfb}>equity</span> </h2>
             <ul>
               <li>

@@ -94,9 +94,22 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
-
+.subtitle a {
+  color: #e1165a;
+  text-decoration: none;
+}
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.link{
+  color: #e1165a
+}
 .title,
 .description {
   text-align: center;
@@ -113,8 +126,8 @@
   line-height: 1.5;
   font-size: 1.5rem;
   display: block;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .code {
@@ -225,6 +238,14 @@
   color: #fff;
   font-size: 32px;
   text-decoration: none;
+}
+
+.questions {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .card p {

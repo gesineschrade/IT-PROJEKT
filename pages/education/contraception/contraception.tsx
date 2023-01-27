@@ -41,8 +41,32 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Pregnancy</a>
+          <a>Contraception</a>
         </h1>
+        <p className={styles.description}>
+          Discover everything you want to know about sex, your body and
+          relationships! <code className={styles.code}></code>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="http://localhost:3000/education/contraception/contraception1" className={styles.card}>
+            <h2>Contraception</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/contraception/contraception2"
+            className={styles.card}
+          >
+            <h2>Methods of Contraceptions</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/contraception/contraception3"
+            className={styles.card}
+          >
+            <h2>Questions and Answers</h2>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

@@ -43,6 +43,30 @@ export default function Home() {
         <h1 className={styles.title}>
           <a>Masturbation and Porn</a>
         </h1>
+        <p className={styles.description}>
+          Discover everything you want to know about sex, your body and
+          relationships! <code className={styles.code}></code>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="http://localhost:3000/education/masturbation&porn/masturbation&porn1" className={styles.card}>
+            <h2 className={styles.cardtext}>What is Sex?</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/masturbation&porn/masturbation&porn2"
+            className={styles.card}
+          >
+            <h2 className={styles.cardtext}>What are possible consequences of Sex?</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/masturbation&porn/masturbation&porn3"
+            className={styles.card}
+          >
+            <h2 className={styles.cardtext}>What are sexual activities?</h2>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

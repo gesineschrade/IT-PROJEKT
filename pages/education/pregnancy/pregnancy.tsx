@@ -13,7 +13,7 @@ export default function Home() {
             <ul>
               <li>
                 {" "}
-                <a href="http://localhost:3000/">Home</a>
+                <a href="http://localhost:3000/home">Home</a>
               </li>
               <li>
                 {" "}
@@ -41,8 +41,32 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Consent</a>
+          <a>Pregnancy</a>
         </h1>
+        <p className={styles.description}>
+          Discover everything you want to know about sex, your body and
+          relationships! <code className={styles.code}></code>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="http://localhost:3000/education/pregnancy/pregnancy1" className={styles.card}>
+            <h2 className={styles.cardtext}>What is Sex?</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/pregnancy/pregnancy2"
+            className={styles.card}
+          >
+            <h2 className={styles.cardtext}>What are possible consequences of Sex?</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/pregnancy/pregnancy3"
+            className={styles.card}
+          >
+            <h2 className={styles.cardtext}>What are sexual activities?</h2>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

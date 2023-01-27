@@ -31,7 +31,7 @@ export default function Home() {
             <button className={styles.button}>
               {" "}
               <a href="http://localhost:3000/login/login"> My SexEquity</a>
-            </button>{" "}
+            </button>
           </nav>
         </div>
         <title>Sexequity</title>
@@ -39,7 +39,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      
+      <h1 className={styles.title}>
+          <a>What is Sexual Consent?</a>
+        </h1>
+        <p className={styles.description2}> Sexual consent is when someone agrees to have sexual contact with someone else. It's like asking someone if they want to play a game with you, but instead of playing a game, it's about touching each other's bodies or doing other sexual things.<br></br><br></br> 
+        It's important to always get sexual consent before doing anything sexual with someone else. This means you should talk to the person and make sure they want to do the sexual things you want to do. If they say yes, that means they give their consent. If they say no, that means they don't give their consent and you shouldn't do those things with them.<br></br><br></br>
+        It's also important to remember that a person can change their mind at any time. If they say yes at first, but then change their mind and say no, you should stop what you're doing right away.<br></br><br></br>
+        It's also important to remember that a person who is drunk or asleep can't give sexual consent.<br></br><br></br>
+        In summary, sexual consent is when someone agrees to have sexual contact with someone else and it's important to always get sexual consent before doing anything sexual with someone else. And remember, a person can change their mind at any time and a person who is drunk or asleep can't give sexual consent.
+        <code className={styles.code}></code>
+        </p>
       </main>
       <footer className={styles.footer}>
         <a

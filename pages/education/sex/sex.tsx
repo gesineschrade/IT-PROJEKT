@@ -8,8 +8,11 @@ export default function Home() {
       <Head>
         <div className={styles.header}>
           <nav>
-          <h2> <span className= {styles.halfa}>Sex</span>
-              <span className= {styles.halfb}>equity</span> </h2>
+            <h2>
+              {" "}
+              <span className={styles.halfa}>Sex</span>
+              <span className={styles.halfb}>equity</span>{" "}
+            </h2>
             <ul>
               <li>
                 {" "}
@@ -31,7 +34,7 @@ export default function Home() {
             <button className={styles.button}>
               {" "}
               <a href="http://localhost:3000/login/login"> My SexEquity</a>
-            </button>
+            </button>{" "}
           </nav>
         </div>
         <title>Sexequity</title>
@@ -41,56 +44,33 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sexequity Education</a>
+          <a>Sex</a>
         </h1>
-
         <p className={styles.description}>
           Discover everything you want to know about sex, your body and
           relationships! <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
-          <a href="http://localhost:3000/education/sex/sex" className={styles.card}>
-            <h2 className={styles.cardtext}>Sex</h2>
+          <a
+            href="http://localhost:3000/education/sex/sex1"
+            className={styles.card}
+          >
+            <h2>Sex</h2>
           </a>
 
           <a
-            href="http://localhost:3000/education/sexual-health/sexual-health"
+            href="http://localhost:3000/education/sex/sex2"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>Sexual Health</h2>
+            <h2>Consequences of Sex</h2>
           </a>
 
           <a
-            href="http://localhost:3000/education/masturbation&porn/masturbation&porn"
+            href="http://localhost:3000/education/sex/sex3"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>Masturbation & Porn</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/contraception/contraception"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Contraception</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/consent/consent"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Consent</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/pregnancy/pregnancy"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Pregnancy</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/relationships/relationships"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Relationships</h2>
+            <h2>Sexual activities</h2>
           </a>
         </div>
       </main>

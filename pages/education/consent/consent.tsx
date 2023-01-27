@@ -41,56 +41,29 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Sexequity Education</a>
+          <a>Consent</a>
         </h1>
-
         <p className={styles.description}>
-          Discover everything you want to know about sex, your body and
-          relationships! <code className={styles.code}></code>
+          Learn about consent! <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
-          <a href="http://localhost:3000/education/sex/sex" className={styles.card}>
-            <h2 className={styles.cardtext}>Sex</h2>
+          <a href="http://localhost:3000/education/consent/consent1" className={styles.card}>
+            <h2>Consent</h2>
           </a>
 
           <a
-            href="http://localhost:3000/education/sexual-health/sexual-health"
+            href="http://localhost:3000/education/consent/consent2"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>Sexual Health</h2>
+            <h2>Sexual Consent</h2>
           </a>
 
           <a
-            href="http://localhost:3000/education/masturbation&porn/masturbation&porn"
+            href="http://localhost:3000/education/consent/consent3"
             className={styles.card}
           >
-            <h2 className={styles.cardtext}>Masturbation & Porn</h2>
-          </a>
-
-          <a
-            href="http://localhost:3000/education/contraception/contraception"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Contraception</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/consent/consent"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Consent</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/pregnancy/pregnancy"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Pregnancy</h2>
-          </a>
-          <a
-            href="http://localhost:3000/education/relationships/relationships"
-            className={styles.card}
-          >
-            <h2 className={styles.cardtext}>Relationships</h2>
+            <h2>Sexual Assault</h2>
           </a>
         </div>
       </main>

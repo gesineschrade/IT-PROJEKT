@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <div className={styles.header}>
           <nav>
-          <h2> <span className= {styles.halfa}>Sex</span>
+            <h2> <span className= {styles.halfa}>Sex</span>
               <span className= {styles.halfb}>equity</span> </h2>
             <ul>
               <li>
@@ -31,7 +31,7 @@ export default function Home() {
             <button className={styles.button}>
               {" "}
               <a href="http://localhost:3000/login/login"> My SexEquity</a>
-            </button>
+            </button>{" "}
           </nav>
         </div>
         <title>Sexequity</title>
@@ -41,8 +41,32 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a>Contraception</a>
+          <a>Sexual Health</a>
         </h1>
+        <p className={styles.description}>
+          Discover everything you want to know about sex, your body and
+          relationships! <code className={styles.code}></code>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="http://localhost:3000/education/sexual-health/sexual-health1" className={styles.card}>
+            <h2>Sexual Health</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/sexual-health/sexual-health2"
+            className={styles.card}
+          >
+            <h2>Sexually Transmitted Infections (STIs)</h2>
+          </a>
+
+          <a
+            href="http://localhost:3000/education/sexual-health/sexual-health3"
+            className={styles.card}
+          >
+            <h2>STI Testing</h2>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
