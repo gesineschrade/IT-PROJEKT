@@ -77,6 +77,11 @@ export default function Home() {
             <label>I have read and accept the website's terms and conditions, including the privacy policy.</label>
 
             </form>
+            <br></br> <br></br>
+            <button className={styles.button}>
+              {" "}
+              <a href="http://localhost:3000/education/myprogress"> Login</a>
+            </button>
 
         </main>
             <footer className={styles.footer}>

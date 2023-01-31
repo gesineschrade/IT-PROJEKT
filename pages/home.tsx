@@ -67,7 +67,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://www.berlin.de/lb/psychiatrie/hilfe-in-krisen/weitere-krisen-und-notrufnummern-fuer-erwachsene/"
             className={styles.card}
           >
             <h2>Get urgent help.</h2>

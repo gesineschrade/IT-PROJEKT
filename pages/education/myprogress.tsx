@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "/styles/Home.module.css";
+import React from 'react';
 
 export default function Home() {
   return (
@@ -39,8 +40,38 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      
+      <h1 className={styles.title}>
+          <a>My SexEquity</a>
+      </h1>
+      <h2 className={styles.subtitle}>
+          <a>My Learning Goals</a>
+        </h2>
+        <p className={styles.description2}>Choose the topics you want to learn about! Click on their name to go straight to the topics you chose.</p> 
+        <p className={styles.description3}>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/sex/sex" className={styles.link}> Sex</a>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/sexual-health/sexual-health" className={styles.link}> Sexual Health</a>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/masturbation&porn/masturbation&porn" className={styles.link}> Masturbation & Porn</a> <br></br>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/contraception/contraception" className={styles.link}> Contraception</a> 
+        <input type="checkbox" /> <a href="http://localhost:3000/education/consent/consent" className={styles.link}> Consent</a>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/pregnancy/pregnancy" className={styles.link}> Pregnancy</a>
+        <input type="checkbox" /> <a href="http://localhost:3000/education/relationships/relationships" className={styles.link}> Relationships</a> 
+        </p>
+        <h2 className={styles.subtitle}>
+          <a>My Progress</a>
+        </h2>
+        <p className={styles.description2}>Here you can see which Quizzes you already mastered!</p> 
+        <Image src="/SEV_images/progress.svg" height={30} width={30} />
+        <h2 className={styles.subtitle}>
+          <a>My Badges</a>
+        </h2>
+        <p className={styles.description2}> 
+        
+        </p>
+        <p className={styles.description2}>Congrats! You are an experts on these topics. </p> 
+        
+
       </main>
+
       <footer className={styles.footer}>
         <a
           href="https://www.linkedin.com/in/lisa-geist-0018b91a2/"
