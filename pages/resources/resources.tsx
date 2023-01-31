@@ -13,7 +13,7 @@ export default function Home() {
             <ul>
               <li>
                 {" "}
-                <a href="http://localhost:3000/">Home</a>
+                <a href="http://localhost:3000/home">Home</a>
               </li>
               <li>
                 {" "}
@@ -68,7 +68,7 @@ export default function Home() {
             href="http://localhost:3000/resources/toys"
             className={styles.card}
           >
-            <h2>Sex Toys and Pornos &rarr;</h2>
+            <h2>Sex Toys &rarr;</h2>
           </a>
 
           <a

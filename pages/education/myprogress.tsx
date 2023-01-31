@@ -60,7 +60,6 @@ export default function Home() {
           <a>My Progress</a>
         </h2>
         <p className={styles.description2}>Here you can see which Quizzes you already mastered!</p> 
-        <Image src="/SEV_images/progress.svg" height={30} width={30} />
         <h2 className={styles.subtitle}>
           <a>My Badges</a>
         </h2>
